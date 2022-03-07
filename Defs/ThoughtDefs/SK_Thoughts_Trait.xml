@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 功夫小子 -->
+    <ThoughtDef>
+        <defName>SKKungfu1MoodOffset</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+            <li>SKKungfu1</li>
+        </requiredTraits>
+        <stages>
+        <li>
+            <label>我会功夫我怕谁</label>
+            <description>学了点功夫就开始飘了，殊不知武功再高也怕菜刀.</description>
+            <baseMoodEffect>5</baseMoodEffect>
+        </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 功夫大师 -->
+    <ThoughtDef>
+        <defName>SKKungfu2MoodOffset</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+        <li>SKKungfu2</li>
+        </requiredTraits>
+        <stages>
+        <li>
+            <label>还有谁？！</label>
+            <description>你们一起上～</description>
+            <baseMoodEffect>15</baseMoodEffect>
+        </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 功夫传奇 -->
+    <ThoughtDef>
+        <defName>SKKungfu3aMoodOffset</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+        <li>SKKungfu3a</li>
+        </requiredTraits>
+        <stages>
+        <li>
+            <label>侠之大者，为国为民</label>
+            <description>功夫不就是用来保护弱者的吗？路见不平，拔刀相助。国家有难，当舍生忘死保家卫国。</description>
+            <baseMoodEffect>25</baseMoodEffect>
+        </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 太极宗师 -->
+    <ThoughtDef>
+        <defName>SKKungfu3bMoodOffset</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+        <li>SKKungfu3b</li>
+        </requiredTraits>
+        <stages>
+        <li>
+            <label>无敌是多么寂寞！路漫漫其修远兮～</label>
+            <description>遍寻天下，难逢敌手。愿潜心钻研，将太极发扬光大。</description>
+            <baseMoodEffect>30</baseMoodEffect>
+        </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

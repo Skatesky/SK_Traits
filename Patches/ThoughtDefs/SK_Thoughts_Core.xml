@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- 看到尸体 -->
+    <Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
+			<value>
+				<li>SKKungfu1</li>
+				<li>SKKungfu2</li>
+				<li>SKKungfu3a</li>
+				<li>SKKungfu3b</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]</xpath>
+			<value>
+				<nullifyingTraits>
+					<li>SKKungfu1</li>
+                    <li>SKKungfu2</li>
+                    <li>SKKungfu3a</li>
+                    <li>SKKungfu3b</li>
+				</nullifyingTraits>
+			</value>
+		</nomatch>
+	</Operation>
+
+    <!-- 目睹死亡 -->
+    <Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]/nullifyingTraits</xpath>
+			<value>
+				<li>SKKungfu1</li>
+                <li>SKKungfu2</li>
+                <li>SKKungfu3a</li>
+                <li>SKKungfu3b</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]</xpath>
+			<value>
+				<nullifyingTraits>
+					<li>SKKungfu1</li>
+                    <li>SKKungfu2</li>
+                    <li>SKKungfu3a</li>
+                    <li>SKKungfu3b</li>
+				</nullifyingTraits>
+			</value>
+		</nomatch>
+	</Operation>
+
+    <!-- 疼疼 -->
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName = "Pain"]/nullifyingTraits</xpath>
+		<value>
+			<li>SKKungfu1</li>
+            <li>SKKungfu2</li>
+            <li>SKKungfu3a</li>
+            <li>SKKungfu3b</li>
+		</value>
+	</Operation>
+
+    <!-- 睡在室外 -->
+    <Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThoughtDef[defName = "SleptOutside"]/nullifyingTraits</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "SleptOutside"]/nullifyingTraits</xpath>
+			<value>
+				<li>SKKungfu1</li>
+                <li>SKKungfu2</li>
+                <li>SKKungfu3a</li>
+                <li>SKKungfu3b</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "SleptOutside"]</xpath>
+			<value>
+				<nullifyingTraits>
+					<li>SKKungfu1</li>
+                    <li>SKKungfu2</li>
+                    <li>SKKungfu3a</li>
+                    <li>SKKungfu3b</li>
+				</nullifyingTraits>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

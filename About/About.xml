@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>More Chinese Traits</name>
+	<url></url>
+	<author>Skate</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.3</li>
+	</supportedVersions>
+
+	<description>
+
+	This mod was made to commemorate Gaoshi.
+
+	The mod adds some practical traits to the game. Different colors indicate the strength of the traits.
+	&lt;color=#33ff00&gt;[green]&lt;/color&gt;:These traits have some gain effects and the strength is comparable to "fast walker".
+	&lt;color=#66ccff&gt;[blue]&lt;/color&gt;:These traits have some good gain effects and the strength is comparable to "hard worker".
+	&lt;color=#FFCC66&gt;&lt;b&gt;[golden]&lt;/b&gt;&lt;/color&gt;:Custom traits. These traits make your character unique. You almost only get the traits with "EdB Prepare Carefully".
+	The strength of the traits is inversely proportional to the rate of occurrence. It means that you will hardly meet a person with golden traits during normal game time.
+
+	内容：
+	增加更多特性
+	→ 基础特性：绿色。效果期望与原版普通正面属性相当
+	→ 进阶特性：蓝色。效果期望介于原版普通和优秀正面属性之间
+	→ 完美特性：金色。营造背景的极佳特性，某领域的极端强化
+	正常游戏状态下，各特性有相关参数控制出现率，不会出现优秀特性泛滥的情况，可安心使用。
+
+	</description>
+
+
+</ModMetaData>
